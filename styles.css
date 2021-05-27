@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 1% 7% 5%;
+}
+
+/*--------------------Top container---------------------*/
+
+.top-container {
+  background-image: url('design_assets_svg/Group_16.svg#svgView(preserveAspectRatio(none))');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 90% 100%;
+}
+
+.top-left-container {
+  padding-top: 7%;
+}
+
+.heading {
+  font-size: 3.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.sub-heading {
+  color: #7a4fff;
+}
+
+.navbar {
+  margin: 0 -1.2rem;
+}
+
+.nav-item {
+  padding: 0 1.1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(229, 200, 248);
+  font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3c0dc9;
+}
+
+.navbar-image {
+  width: 16.25rem;
+  height: 2.375rem;
+  box-sizing: border-box;
+  padding-top: 0.31rem;
+  margin-left: 3.75rem;
+}
+
+/* Download Buttons */
+.signup-button {
+  width: 32%;
+  margin-top: 1.2rem;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+}
+
+/*--------------------Middle container---------------------*/
+
+.middle-container {
+  padding: 1.5rem 0rem;
+  margin-bottom: 4rem;
+}
+
+.middle-container-heading {
+  color: #4619d9;
+}
+
+.middle-container-image {
+  width: 100%;
+  height: 100%;
+}
+
+.middle-right-container {
+  padding: 7% 0% 0% 5%;
+}
+
+/*--------------------Bottom container---------------------*/
+
+.bottom-container {
+  height: 50vh;
+  background-image: url('design_assets_svg/Group_17.svg#svgView(preserveAspectRatio(none))');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.bottom-container-image {
+  width: 35%;
+  position: absolute;
+  bottom: 6.5rem;
+}
+
+@media (max-width: 768px) {
+  /*--------------------Top container---------------------*/
+  .top-container {
+    background-image: url('design_assets_svg/Group_16.svg#svgView(preserveAspectRatio(none))');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 90% 60%;
+    margin-bottom: 4rem;
+  }
+
+  .title-image {
+    width: 90%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(186, 98, 245);
+    font-size: 1rem;
+  }
+  .navbar-image {
+    margin-left: 0rem;
+  }
+
+  .sub-heading {
+    color: #3c0dc9;
+  }
+
+  /*--------------------Middle container---------------------*/
+  .middle-right-container {
+    text-align: center;
+  }
+
+  .middle-container-image {
+    width: 90%;
+    height: 90%;
+  }
+
+  /*--------------------Bottom container---------------------*/
+
+  .bottom-container {
+    background-size: 100% 70%;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 984px) {
+  .nav-item {
+    padding: 0 0.31rem;
+  }
+  .navbar-image {
+    margin-left: 2.2rem;
+  }
+}
